@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  background-color: rgb(27, 27, 27);
+}
+body img {
+  width: 1100px;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.form legend, .form input, .form label, .form button, .form p {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.form span {
+  font-style: italic;
+}
+.form p {
+  font-size: larger;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.input fieldset {
+  height: 200px;
+  width: 800px;
+}
+
+.forminput {
+  box-shadow: inset;
+  padding: 0%;
+  padding-bottom: 20px;
+  box-shadow: 0 8px 6px -6px skyblue;
+}
+.forminput legend {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+fieldset {
+  padding: 0%;
+  border-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+fieldset label {
+  display: block;
+}
+fieldset input {
+  width: 370px;
+  background-color: rgb(27, 27, 27);
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+fieldset input:focus {
+  outline: none;
+  border-color: skyblue;
+}
+
+button {
+  color: skyblue !important;
+  border: 3px skyblue solid;
+  background-color: rgb(27, 27, 27);
+  padding: 12px;
+  font-size: larger;
+  border-radius: 5px;
+}
+
+button:hover {
+  scale: 0.9;
+  transition: 100ms;
+  color: rgb(27, 27, 27) !important;
+  background-color: skyblue;
+}
+
+.btm {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 858.95px;
+  align-items: flex-start;
+}
+
+.logo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 300px;
+  padding: 0 240px;
+}
+.logo img {
+  width: 243px;
+  height: 219px;
+}
+.logo h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "Japanese";
+}
+
+@font-face {
+  font-family: "Japanese";
+  src: url(fonts/JAPANESE_2020.otf);
+}/*# sourceMappingURL=style.css.map */
